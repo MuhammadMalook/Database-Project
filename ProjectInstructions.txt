@@ -1,0 +1,62 @@
+Project Owners:
+Muhammad Malook & Shahbaz Arain.
+
+Hello!
+As our project is railway reservation system. We have created this project using java netbeans with mysql database.
+In this file, I will guide you how to setup and run project properly.
+				
+					//:Instructions to Install and Run project properly://
+
+1.First of all you must have jkd 8 and mysql/xampp server on you machine.
+2.You should keep database file in folder c://program files//mysql//bin..
+3.you should source it through cmd to add database in mysql server.
+	-->goto xammp/mysql, then goto bin folder and paste .sql file in it.
+	-->now open cmd from bin directory..
+	-->make connection with mysql using command: mysql -u root -p
+	-->now click enter, you will be asked for password for mysql, so if you have set password then enter password and click enter
+		otherwise directly enter without password.
+	-->now import database using command : source rrs.sql;  //rrs.sql is the name of sql file.
+4.if you are using xampp then you must start mysql in xampp server before doing above.
+5.Now you are ready to start program.I have provide a jar file of my program so you can directly run that jar file.
+6.After executing jar file you will find the main page, Where you will se two options(Login In and Sign Up).
+	-->if you chose login a new window will apear and will take id(integer) and password(string).
+		-->There are 3 admins in my table from which one is id=008, password=iba123 //entring this you will be logged in..
+	-->if you chose Sign Up, this means you are going to be the admin of that application.
+		-->you will be asked name,id and password to become admin.
+	
+	-->You will se a back button on every window to move to previous window.
+7. After logging in you will see another window, in which you will se different operations that will be performed by application.
+	-->Here are those operations:
+	1.Booking a seat.
+		-->you have to provide all information when the seat book window appears.
+		-->you will be asked name,cnic,age,station name, after booking your passenger_id and ticket_number will be stored in database automatically.
+	2.Showing all information of passengers.
+		-->you will click on the button inside this line, you will be shown most of the information of all passengers on another window
+	3.Showing a particular passenger's information.
+		-->You can also see the particular passenger's information by clicking the button inside.
+		-->Then you will be asked to enter passeger_id to search passenger.
+	4.Showing All trains Information.
+		-->By clicking button inside you will be shown all available trains with their information.
+	5.Showing particular train's information.
+		-->BY clicking button inside you will be get to the next window.
+		-->You will see a checkbox in which all trains are filled. You can select any to see their information.
+	6.Showing all stations information.
+		-->Simply by clicking button inside this line, you will see another window where all information will be displayed.
+
+--> If you want to run project using netbeans so you must download my project's zip file and open it in netbeans.
+	-->you must add (mysql-j-connector) jar file in the libaries of project in netbeans.
+		-->this mysql-j-connector is used to connect your project with mysql database.
+	-->you must add (r2xml.jar) file in libraries of project. this is used for the jtable.
+	-->Then you can right click on project and select run..
+	-->Now a main window will appear, now you run it as i have instructed above.
+This is all about our project. I hope you can run it properly now.
+
+
+					
+					*************************
+					*   	THANKS		*
+					*************************
+
+						
+				
+
